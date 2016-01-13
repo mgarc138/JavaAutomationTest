@@ -39,6 +39,7 @@ public class ApplyAsFreeLancer {
         // Check that page is open
         Assert.assertTrue(applyPage.isPageOpened());
 
+        applyPage.SetDropDownSelection("Designer");
         applyPage.setEmail("hi@hotmail.com");
         applyPage.setFreelancerPassword("11213123132312");
         applyPage.setFreelancerConfirmationPassword("test");
